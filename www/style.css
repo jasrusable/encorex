@@ -1,0 +1,36 @@
+
+html {
+    height: 100%;
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    height: 100%;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.62em;
+    line-height: 1.62;
+}
+
+.wrap {
+    min-height: 100%;
+}
+
+.main {
+    overflow:auto;
+    padding-bottom:190px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+    -webkit-box-shadow: inset 0px 10px 26px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 10px 26px -18px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 10px 26px -18px rgba(0,0,0,0.75);
+    background-color: white;
+    position: relative;
+    margin-top: -160px; /* negative value of footer height */
+    min-height: 160px;
+    clear:both;
+    padding-top:10px;
+}

@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app='app'>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="refresh" content="1800">
+        <title>Encorex.co.za</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Encorex description"/>
+        <meta property="og:url" content="http://encorex.co.za">
+        <meta property="og:title" content="Encorex">
+        <meta property="og:description" content="Encorex description">
+
+        <!-- Bootstrap CSS -->
+        <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- jQuery -->
+        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- AngularJS -->
+        <script src="/bower_components/angular/angular.min.js"></script>
+        <!-- Angular Router -->
+        <script src="/bower_components/angular-route/angular-route.min.js"></script>
+        <!-- Angular-Bootstrap -->
+        <script src="/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+        <script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+        <!-- Angular UI Router -->
+        <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <!-- Font-Awesome -->
+        <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+        <!-- bootstrap Angular App. -->
+        <script src="/scripts/app.js"></script>
+
+        <!-- Base -->
+        <script src="/scripts/base/controller.js"></script>
+
+        <!-- Custom Styles -->
+        <link href="/style.css", rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div class="wrap">
+            <div class="main">
+                <div ui-view></div>
+            </div>
+        </div>
+
+        <div class="footer" ng-controller="FooterController">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-3 col-md-2 col-md-offset-2">
+                        <h4>Product</h4>
+    
+                    </div>
+                    <div class="col-sm-3 col-md-2">
+                        <h4>About</h4>
+                        
+                    </div>
+                    <div class="col-sm-3 col-md-2">
+                        <h4>Support</h4>
+                       
+                    </div>
+                    <div class="col-sm-3 col-md-2">
+                        <h4>Social</h4>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
