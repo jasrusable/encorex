@@ -1,8 +1,6 @@
 app = angular.module('app', ['ui.router', 'ngRoute', 'ui.bootstrap'])
 
 
-
-
 app.config( ($stateProvider, $urlRouterProvider) ->
 	$urlRouterProvider.otherwise('/');
 
@@ -16,6 +14,10 @@ app.config( ($stateProvider, $urlRouterProvider) ->
 		.state('base.landing', {
 			url: '',
 			templateUrl: 'partials/base.landing.html',
+		})
+		.state('base.about-us', {
+			url: 'about-us',
+			templateUrl: 'partials/base.about-us.html',
 		})
 )
 
