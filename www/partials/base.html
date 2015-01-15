@@ -17,6 +17,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
       <ul class="nav navbar-nav navbar-right">
+        <li ng-class="{'active': $state.is('base.landing')}"><a ui-sref="base.landing">Home</a></li>
         <li ng-class="{'active': $state.is('base.about')}"><a ui-sref="base.about">About</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
