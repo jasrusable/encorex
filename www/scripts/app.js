@@ -13,9 +13,9 @@ app.config(function($stateProvider, $urlRouterProvider) {
   }).state('base.landing', {
     url: '',
     templateUrl: 'partials/base.landing.html'
-  }).state('base.about-us', {
-    url: 'about-us',
-    templateUrl: 'partials/base.about-us.html'
+  }).state('base.about', {
+    url: 'about',
+    templateUrl: 'partials/base.about.html'
   });
 });
 

@@ -27,7 +27,8 @@ body {
     -webkit-box-shadow: inset 0px 10px 26px -18px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 10px 26px -18px rgba(0,0,0,0.75);
     box-shadow: inset 0px 10px 26px -18px rgba(0,0,0,0.75);
-    background-color: white;
+    background-color: #2D2E2F;
+    color: #777777;
     position: relative;
     margin-top: -160px; /* negative value of footer height */
     min-height: 160px;

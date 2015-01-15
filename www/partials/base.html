@@ -8,14 +8,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" ui-sref="base.landing">ENCOREX</a>
+      <a ui-sref="base.landing">
+        <img class="navbar-brand" src="images/encorexLogo1.png" alt="Godwin Sweto">
+      </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
       <ul class="nav navbar-nav navbar-right">
-        <li ng-class="{'active': $state.is('base.about-us')}"><a ui-sref="base.about-us">About Us</a></li>
+        <li ng-class="{'active': $state.is('base.about')}"><a ui-sref="base.about">About</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
