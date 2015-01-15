@@ -48,3 +48,28 @@ body {
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1)
 }
+
+@media (min-width: 900px) {
+    .landing-top {
+        padding-top: 150px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .landing-top {
+        padding-top: 250px;
+        height: 600px;
+    }
+}
+.landing-top {
+    background: url('/images/Alternative_Energies.jpg');
+    background-position: 0px -240px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#b3b3b3', GradientType=1);
+    color: #fff;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1)
+}
