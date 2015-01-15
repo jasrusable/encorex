@@ -16,6 +16,9 @@ app.config(function($stateProvider, $urlRouterProvider) {
   }).state('base.about', {
     url: 'about',
     templateUrl: 'partials/base.about.html'
+  }).state('base.investments', {
+    url: 'investments',
+    templateUrl: 'partials/base.investments.html'
   });
 });
 
