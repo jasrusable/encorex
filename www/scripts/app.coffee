@@ -23,6 +23,10 @@ app.config( ($stateProvider, $urlRouterProvider) ->
 			url: '/directorate',
 			templateUrl: 'partials/base.about.directorate.html',
 		})
+		.state('base.about.goals', {
+			url: '/goals',
+			templateUrl: 'partials/base.about.goals.html',
+		})
 		.state('base.investments', {
 			url: 'investments',
 			templateUrl: 'partials/base.investments.html',
