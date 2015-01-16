@@ -1,29 +1,26 @@
 <div class="container">
-	<h2 class="text-center"> About </h2>
-	<div class="col-sm-4">
-		<img src="images/Godwin.jpg" alt="Godwin Sweto">
-		<p class="lead">
-			Godwin Sweto
-		</p>
-		
+
+	<div class="col-sm-4 col-md-3">
+		<h2 class="text-center"> About </h2>
+		<ul class="nav nav-pills nav-stacked">
+		  	<li role="presentation" ng-class="{'active': $state.is('base.about.directorate')}">
+		  		<a ui-sref="base.about.directorate">
+		  			Directorate
+		  			<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+		  		</a>
+		  	</li>
+		  	<li role="presentation">
+		  		<a href="#">
+		  		Goals
+		  		<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+		  		</a>
+		  	</li>
+		</ul>
 	</div>
-	<div class="col-sm-8">
-		<p>
-		Encorex was founded in 2013 by Godwin Sweto, an engineer whose 24 years in the minerals and energy industry includes 15 years in oil and gas and 5 years as Vice President for Corporate Strategy and Planning for the Petroleum Oil and Gas Corporation of South Africa (PetroSA), building on his previous experience in production and planning engineering with blue-chip  diversified multinationals like BHP Billiton, RTZ and Lonmin.
-		</p> 
-		<p>
-		Mr. Sweto joined the oil and gas industry  in 1999 as a geoscience applications analyst with a focus on geological, geostatistical and reservoir graphical modelling  applications, before moving into upstream domestic and international business development, being involved in due diligence, project evaluation for asset and corporate acquisitions. He worked on projects such as the successful acquisition, in 2003, of Brass Exploration, offshore Nigeria, as well as a number of other projects in the Gulf of Mexico, Argentina, Tunisia, Yemen, Egypt and South Africa. His duties included serving on the steering committee of the Liquefied Natural Gas (LNG) project that would enhance feedstock supply to what remains one of the world’s largest gas-to-liquids refineries, while also providing gas to the national utility’s combined cycle gas turbine (CCGT) plant in Mossel Bay. He also served as a director for PetroSA Namibia, and is widely credited for being the brain-child behind the national oil company’s Vision 2020 strategic blueprint.
-		</p>
 
-		Mr. Sweto created Encorex as an “energy focused consultancy, trading and investment company that would grow through targeted investments in, in particular, natural gas and clean energy investments”.
-		</p>
+
+	<div class="col-sm-8 col-md-8 col-md-offset-1">
+		<div ui-view></div>
 	</div>
-
-	<br/>
-	<br/>
-	<br/>
-
-	<p class="lead">Encorex (Pty) Ltd, “Encorex”, is a wholly owned South African energy consulting and investment  company registered in terms of the Companies Act 71 of 	2008 and Companies Act Bill 40 of 2010.
-	</p>
 
 </div>
